@@ -1,6 +1,101 @@
 {
   "schema_version": 1,
   "feed": "nfl",
-  "generated_at": "2026-09-25T13:43:05Z",
-  "items": []
+  "generated_at": "2026-09-25T13:52:24Z",
+  "items": [
+    {
+      "id": "atl-gb-2026-w3-penix-return",
+      "title": "Penix returns as Falcons overwhelm Packers 35-14",
+      "summary": "Atlanta earned its first win of the season as Michael Penix Jr. rebounded from an early interception to finish 18-of-25 for 256 yards and a touchdown. Bijan Robinson produced 213 scrimmage yards and two rushing touchdowns, Drake London caught nine passes for a career-high 194 yards, and the Falcons rushed for 242 yards while holding Green Bay to 17 net rushing yards.",
+      "published_at": "2026-09-25T03:17:00Z",
+      "sources": [
+        {
+          "name": "NFL.com",
+          "url": "https://amp.nfl.com/news/falcons-packers-on-thursday-night-football-what-we-learned-from-atlanta-s-35-14-win"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://amp.nfl.com/videos/falcons-vs-packers-highlights-week-3"
+        },
+        {
+          "type": "video",
+          "url": "https://amp.nfl.com/videos/drake-london-s-best-catches-from-194-yard-game-vs-packers-week-3"
+        },
+        {
+          "type": "video",
+          "url": "https://fantasy-www.nfl.com/videos/bijan-robinson-s-best-plays-from-213-yard-2-td-game-vs-packers-week-3"
+        },
+        {
+          "type": "video",
+          "url": "https://fantasy-www.nfl.com/videos/michael-penix-jr-s-best-throws-from-256-yard-game-vs-packers-week-3"
+        },
+        {
+          "type": "video",
+          "url": "https://amp.nfl.com/videos/can-t-miss-play-68-yard-gain-drake-london-s-longest-career-catch-comes-on-tnf-against-packers"
+        }
+      ]
+    },
+    {
+      "id": "nyg-jaxson-dart-2026-knee-regular-season",
+      "title": "Jaxson Dart ruled out for the rest of the regular season",
+      "summary": "The Giants said Jaxson Dart will miss the remainder of the 2026 regular season after the knee injury he suffered against the Rams. Jameis Winston will take over as the starter, and New York said it will tailor the offense to Winston while also considering additions to the quarterback room.",
+      "published_at": "2026-09-24T20:05:00Z",
+      "sources": [
+        {
+          "name": "New York Giants",
+          "url": "https://www.giants.com/news/jaxson-dart-to-miss-rest-of-regular-season-jameis-winston-to-start-quarterback-injury-john-harbaugh"
+        },
+        {
+          "name": "NFL.com",
+          "url": "https://fantasy-www.nfl.com/news/giants-jameis-winston-starting-qb-jaxson-dart-injury-dream"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "sea-sam-darnold-2026-glute-return",
+      "title": "Sam Darnold progresses to full practice",
+      "summary": "Seattle quarterback Sam Darnold was a full participant Thursday after being limited Wednesday, a significant step toward returning from the glute injury that kept him out of Week 2. The Seahawks have not yet formally declared him active for Sunday at Washington.",
+      "published_at": "2026-09-24T20:40:00Z",
+      "sources": [
+        {
+          "name": "Seattle Seahawks",
+          "url": "https://www.seahawks.com/news/week-3-injury-report-seahawks-vs-commanders"
+        },
+        {
+          "name": "Seattle Seahawks",
+          "url": "https://www.seahawks.com/news/seahawks-quarterback-sam-darnold-striving-to-play-sunday-but-taking-it-day-by-day"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "dal-2026-w3-defense-outs-brazil",
+      "title": "Cowboys rule out four defenders for Ravens game in Brazil",
+      "summary": "Dallas ruled out linebacker DeMarvion Overshown, cornerback Cobie Durant and safeties Malik Hooker and P.J. Locke for Sunday's game against Baltimore in Brazil; all four will not travel. The absences materially thin the Cowboys' second level and secondary for the Week 3 matchup.",
+      "published_at": "2026-09-24T19:33:00Z",
+      "sources": [
+        {
+          "name": "NFL.com",
+          "url": "https://amp.nfl.com/news/nfl-news-roundup-latest-league-updates-from-thursday-sept-24"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "bal-2026-w3-madubuike-flowers-status",
+      "title": "Ravens may regain Madubuike while Zay Flowers remains sidelined in practice",
+      "summary": "Baltimore defensive tackle Nnamdi Madubuike was a full practice participant for a second straight day and said he is in a good place as he tries to play for the first time since September 2025. Wide receiver Zay Flowers, meanwhile, missed a second consecutive practice with a hamstring injury ahead of the Cowboys game.",
+      "published_at": "2026-09-24T19:33:00Z",
+      "sources": [
+        {
+          "name": "NFL.com",
+          "url": "https://amp.nfl.com/news/nfl-news-roundup-latest-league-updates-from-thursday-sept-24"
+        }
+      ],
+      "media": []
+    }
+  ]
 }
