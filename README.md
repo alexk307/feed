@@ -56,3 +56,19 @@ Each feed uses the same versioned JSON format. Consumers should read `latest.jso
 - `latest.json` is overwritten on each successful run.
 - Historical snapshots should be written to `archive/YYYY-MM-DD.json`.
 - Producers must validate against `schemas/feed-v1.schema.json` before publishing.
+
+## Viewer
+
+The root of this repository also contains a small, dependency-free web viewer. It discovers the directories under `data/` and shows each directory's `latest.json` as a tab. It reads the public GitHub repository directly, so a running viewer picks up published changes without pulling a new local checkout. Items appear in the order stored in each snapshot, with their original titles, summaries, source links, and media links. When a media link has no stored title, the viewer derives a readable label from its URL; it never changes the target URL.
+
+Run it locally with Node.js 22 or newer:
+
+```sh
+npm start
+```
+
+Open `http://127.0.0.1:4173`. No `npm install` is needed. The viewer checks for updates every five minutes, and the Refresh button checks immediately. To serve it on your own network, run `HOST=0.0.0.0 npm start`; set `PORT` to change the default `4173`.
+
+The browser needs access to `api.github.com` for the feed tabs and `raw.githubusercontent.com` for snapshots. To point the viewer at another public repository or branch, change `REPOSITORY` and `BRANCH` in `data.js`.
+
+Run its small data-loading test suite with `npm test`.

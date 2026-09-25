@@ -36,3 +36,7 @@ data/<feed>/archive/
 ```
 
 Reuse the common schema unless the feed genuinely requires a new version.
+
+## Viewer
+
+The root-level `index.html`, `app.js`, `data.js`, `styles.css`, and `server.mjs` implement a read-only viewer. It discovers feed tabs from the public GitHub `data/` directory and reads each `latest.json` from the same repository. Keep feed content in the JSON snapshots; do not hard-code articles or tab names in the viewer. Run `npm test` when changing its data loading behavior.
